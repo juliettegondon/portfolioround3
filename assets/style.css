@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    color:white;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: black;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    color:white;
+}
+h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+h3 {
+    font-weight: 100;
+}
+p {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background-image: linear-gradient( 143.3deg,  rgba(216,27,96,1) 33.1%, rgba(237,107,154,1) 74.9% );
+    color: black;
+}
+
+
+.juliettegondon {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 0;
+}
+.juliettegondon:hover {
+        text-decoration: none;
+        transition: 0.2s;
+        transform: rotate(-1deg) scale(1.2) translateZ(0);
+
+}
+.brand-tagline {
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    color: black;
+    text-decoration: none;
+    transform: translateY(10px);
+    transition: 0.2s;
+       margin-top: -20px;
+        text-shadow:
+        rgba(16, 16, 16, 0.4) 1px 38px 26px,
+        rgba(16, 16, 16, 0.2) 1px 42px 30px,
+        white -0.15em -0.1em 100px;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    font-style: oblique;
+    color:rgba(237,107,154,1);
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.project {
+    padding-bottom: 2em;
+}
+.project-title {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0.2em;
+}
+
+.project-description {
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(216,27,96,1);
+    line-height: 1.8em;
+}
+
+.project-images {
+    margin: 1em 0;
+}
+.project-author {
+    font-family: 'Source Code Pro', monospace;
+}
+.project-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(216,27,96,1);
+}
+body {
+    background: black no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        letter-spacing: 0.05em;
+        font-size: 400%;
+        color: white;
+    }
+    i:hover {
+        color: rgba(237,107,154,1);
+        transform: translateY(10px);
+        transition: 0.2s;
+       margin-top: -20px;
+        text-shadow:
+        rgba(16, 16, 16, 0.4) 1px 38px 26px,
+        rgba(16, 16, 16, 0.2) 1px 42px 30px,
+        white -0.15em -0.1em 100px;
+    }
+}

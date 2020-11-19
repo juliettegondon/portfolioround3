@@ -1,0 +1,19 @@
+{
+  "name": "portfoliopartiii",
+  "version": "1.0.0",
+  "description": "third edition of my development portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliettegondon/portfolioround3.git"
+  },
+  "author": "juliette gondon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliettegondon/portfolioround3/issues"
+  },
+  "homepage": "https://github.com/juliettegondon/portfolioround3#readme"
+}
