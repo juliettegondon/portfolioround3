@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/juliettegondon/portfolioround3/issues"
   },
-  "homepage": "https://github.com/juliettegondon/portfolioround3#readme"
+  "homepage": "https://github.com/juliettegondon/portfolioround3#readme",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  }
 }

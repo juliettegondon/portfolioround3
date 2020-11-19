@@ -6,9 +6,13 @@
       <title>Juliette Gondon Portfolio</title>
       <link rel="stylesheet" href="./assets/style.css">
       <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
       <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/365338b608.js" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Bungee Inline' rel='stylesheet'>
       <link rel='shortcut icon' type='image/x-icon' href="./assets/fav.ico" />
    </head>
    <body>
@@ -17,7 +21,7 @@
          <div class="sidebar pure-u-1 pure-u-md-1-4">
             <div class="header">
                 <div class="juliettegondon-wrap">
-               <h1 id="name" class="juliettegondon">Juliette Gondon </h1>
+               <h1 class="juliette"></h1>
             </div>
                <h2 class="brand-tagline">Full Stack Web Dev</h2>
                <h2 class="brand-tagline">Boot Camp Student</h2>
@@ -54,15 +58,28 @@
                      </div>
                   </section>
                </div>
+
+       <!-- wrapper for projects -->
+       <div class="projects">
+          <h1 class="content-subhead"> Skills </h1>
+          <!-- A single feature -->
+          <section class="project">
+             <div class="skills-description">
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-node"></i>
+                </div>
+          </section>
+       </div>
+               
                <div class="projects">
                   <h1 class="content-subhead">Projects</h1>
                   <section class="project">
                      <header class="project-header">
                         <h2 class="project-title"> Project 1</h2>
                         <p class="project-meta">
-                           <i href="#" class="project-author fab fa-github"></i> <a>VIEW REPO</a>
-                        </p>
+                           <i href="#" class="project-author fab fa-github">VIEW REPO</i>
                      </header>
+                     
                      <div class="post-description">
                         <p>
                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -73,21 +90,9 @@
                      <header class="project-header">
                         <h2 class="project-title">Project 2 with photos</h2>
                         <p class="project-meta">
-                            <i href="#" class="project-author fab fa-github"></i> <a>VIEW REPO</a>
+                            <i href="#" class="project-author fab fa-github">VIEW REPO</i>
                         </p>
                      </header>
-                     <div class="project-description">
-                        <div class="project-images pure-g">
-                           <div class="pure-u-1 pure-u-md-1-2">
-                              <a href="http://www.flickr.com/photos/uberlife/8915936174/">
-                              <img alt="Photo of someone working poolside at a resort"
-                                 class="pure-img-responsive"
-                                 src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
-                              </a>
-                              <div class="project-image-meta">
-                                 <h3>some hotel</h3>
-                              </div>
-                           </div>
                            <div class="pure-u-1 pure-u-md-1-2">
                               <a href="http://www.flickr.com/photos/uberlife/8907351301/">
                               <img alt="Photo of the sunset on the beach"
@@ -105,12 +110,9 @@
             </div>
          </div>
       </div>
-      <script src="js/scripts.js"></script>
    </body>
+<!--    footer -->
    <footer>
-    <div class="footer pure-u-md-4">
-    <i class="fab fa-js"></i>
-    <i class="fab fa-node"></i>
+<script src = "js/script.js"></script>
    </footer>
-</div>
 </html>

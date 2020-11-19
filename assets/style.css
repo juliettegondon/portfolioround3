@@ -12,6 +12,7 @@ a:focus {
     text-decoration: underline;
     color: black;
 }
+
 h1 {
     font-family: 'Playfair Display', serif;
     color:white;
@@ -46,17 +47,12 @@ p {
 }
 
 
-.juliettegondon {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
+.juliette {
+    font-family: 'Bungee Inline';
+    font-size: 26px;
     margin: 0;
 }
-.juliettegondon:hover {
-        text-decoration: none;
-        transition: 0.2s;
-        transform: rotate(-1deg) scale(1.2) translateZ(0);
 
-}
 .brand-tagline {
     font-weight: 300;
     color: white;
@@ -128,9 +124,6 @@ p {
 .project-images {
     margin: 1em 0;
 }
-.project-author {
-    font-family: 'Source Code Pro', monospace;
-}
 .project-image-meta {
     margin-top: -3.5em;
     margin-left: 1em;
@@ -162,17 +155,17 @@ body {
         bottom: 0;
     }
 
-    .footer {
-        text-align: center;
+    .skills-description {
         margin-top: 1em;
         margin-bottom: 1em;
         letter-spacing: 0.05em;
         font-size: 400%;
         color: white;
     }
+
     i:hover {
         color: rgba(237,107,154,1);
-        transform: translateY(10px);
+        transform: translateY(8px);
         transition: 0.2s;
        margin-top: -20px;
         text-shadow:
