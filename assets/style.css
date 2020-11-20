@@ -138,6 +138,49 @@ body {
     -o-background-size: cover;
   }
 
+  .skills-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skills-item {
+    font-family: 'Source Code Pro', monospace;
+    display: inline-block;
+    *display: inline;
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 50%;
+}
+.skills-item:hover {
+    color: rgba(237,107,154,1);
+    transform: translateY(1px);
+    transition: 0.2s;
+   margin-top: -20px;
+    text-shadow:
+    rgba(16, 16, 16, 0.4) 1px 38px 26px,
+    rgba(16, 16, 16, 0.2) 1px 42px 30px,
+    white -0.15em -0.1em 100px;
+}
+.skills-description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0.05em;
+    font-size: 400%;
+    color: white;
+}
+
+i:hover {
+    color:rgba(216,27,96,1);
+}
+#downloadbtn {
+   color: #eee;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 110%;
+}
+
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
@@ -153,24 +196,5 @@ body {
         position: fixed;
         top: 0;
         bottom: 0;
-    }
-
-    .skills-description {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        letter-spacing: 0.05em;
-        font-size: 400%;
-        color: white;
-    }
-
-    i:hover {
-        color: rgba(237,107,154,1);
-        transform: translateY(8px);
-        transition: 0.2s;
-       margin-top: -20px;
-        text-shadow:
-        rgba(16, 16, 16, 0.4) 1px 38px 26px,
-        rgba(16, 16, 16, 0.2) 1px 42px 30px,
-        white -0.15em -0.1em 100px;
     }
 }
