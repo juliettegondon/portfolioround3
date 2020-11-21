@@ -5,6 +5,7 @@ $(document).ready(function(){
         strings: ["Juliette Gondon"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: true,
+        showCursor: false,
     });
     });
