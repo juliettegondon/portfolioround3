@@ -26,6 +26,9 @@ h1 {
 h2 {
     font-family: 'Source Code Pro', monospace;
 }
+.h2tag{
+  font-family: 'Bungee Inline';
+}
 h3 {
     font-weight: 100;
 }
