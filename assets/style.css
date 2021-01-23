@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -27,7 +29,7 @@ h2 {
     font-family: 'Source Code Pro', monospace;
 }
 .h2tag{
-  font-family: 'Bungee Inline';
+  font-family: Rubik Mono One', sans-serif';
 }
 h3 {
     font-weight: 100;
@@ -51,14 +53,13 @@ p {
 }
 
 .sidebar {
-    background-image: linear-gradient( 143.3deg,  rgba(216,27,96,1) 33.1%, rgba(237,107,154,1) 74.9% );
-    color: black;
+    background-image: linear-gradient(to right, #FFC5F6ff, #FEB1CCff, #FD9EA5ff, #FF9C55, #FF5555);
 }
 
 
 .juliette {
-    font-family: 'Bungee Inline';
-    font-size: 24px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -122,7 +123,7 @@ p {
     font-size: 2em;
     color: white;
     margin-bottom: 0.2em;
-    font-family: 'Bungee Inline';
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .project-description {
@@ -138,7 +139,7 @@ p {
     margin-top: -3.5em;
     margin-left: 1em;
     color: #fff;
-    text-shadow: 0 1px 1px rgba(216,27,96,1);
+    text-shadow: 0 1px 1px #FF5555;
 }
   .skills-list {
     margin: 0;
@@ -174,7 +175,7 @@ p {
 }
 
 i:hover {
-    color:rgba(216,27,96,1);
+    color:#FF5555;
 }
 #downloadbtn {
    color: #eee;
@@ -185,11 +186,11 @@ i:hover {
 /* RAINBOW CARDS */
 
 :root {
-  --primary: #22D2A0;
-  --secondary: #192824;
+  --primary:  #FFFFFFff;
+  --secondary: #FFC5F6ff;
   --background: #192824;
-  --green: #1FC11B;
-  --yellow: #FFD913;
+  --green: #FEB1CCff;
+  --yellow: #FD9EA5ff;
   --orange: #FF9C55;
   --red: #FF5555;
 }
@@ -201,7 +202,7 @@ body {
 }
 
 .card h2 {
-    font-family: 'Bungee Inline';
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 30px;
   letter-spacing: .5px;
   margin-bottom: 10px;
@@ -296,3 +297,11 @@ body {
     40px -40px 0 -3px var(--background), 40px -40px var(--red);
     }
   }
+
+
+  /* CSS HEX */
+/* --outrageous-orange: #FC7A57ff;
+--cotton-candy: #FFC5F6ff;
+--nadeshiko-pink: #FEB1CCff;
+--salmon-pink: #FD9EA5ff;
+--white: #FFFFFFff; */
