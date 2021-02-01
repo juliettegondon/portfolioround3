@@ -29,10 +29,9 @@ body {
   margin-top: 0;
 }
 
-/* nav */
+/* navbar */
 .nav {
   background-color: transparent;
-  
 }
 
 
@@ -41,7 +40,7 @@ body {
   font-family: "Rubik Mono One", sans-serif; 
 }
 
-/* */
+/* text */
 
 a {
     font-family: "Rubik Mono One", sans-serif; 
@@ -50,8 +49,8 @@ a {
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
-    color: black;
+    text-decoration: none!important;
+    color: #FEB1CCff;
 }
 
 .h2tag{
@@ -101,25 +100,27 @@ h3 {
     display: inline-block;
     *display: inline;
     zoom: 1;
+    margin-top:18px;
+    margin-bottom: 10px;
 }
 .nav-item a {
     background: transparent;
     color: #fff;
-    margin-top: 1em;
-    letter-spacing: 0.05em;
-    font-size: 300%;
+    letter-spacing: 0.2em;
+    font-size: 500%;
+    margin-bottom: 18px;
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    color: black;
-    text-decoration: none;
-    transform: translateY(10px);
+    color: #FEB1CCff;
+    text-decoration: none!important;
+    transform: translateY(-5px);
     transition: 0.2s;
-       margin-top: -20px;
+       margin-top: -10px;
         text-shadow:
         rgba(16, 16, 16, 0.4) 1px 38px 26px,
         rgba(16, 16, 16, 0.2) 1px 42px 30px,
-        white -0.15em -0.1em 100px;
+        white -0.15em -0.1em 80px;
 }
 
 .content-subhead {
@@ -196,23 +197,7 @@ h3 {
     text-transform: uppercase;
     font-size: 50%;
 }
-.skills-item:hover {
-    color: rgba(237,107,154,1);
-    transform: translateY(1px);
-    transition: 0.2s;
-   margin-top: -20px;
-    text-shadow:
-    rgba(16, 16, 16, 0.4) 1px 38px 26px,
-    rgba(16, 16, 16, 0.2) 1px 42px 30px,
-    white -0.15em -0.1em 100px;
-}
-.skills-description {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    letter-spacing: 0.05em;
-    font-size: 400%;
-    color: white;
-}
+
 
 i:hover {
     color:#FF5555;
@@ -256,7 +241,7 @@ body {
 
 .card {
   background-color: var(--background);
-  width: 600px;
+  width: fit-content;
   min-height: 300px;
   cursor: pointer;
   padding: 15px;
@@ -340,9 +325,19 @@ body {
 	}
 }
 
+/* contact */
+.selfimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 3px solid #FD9EA5ff;
+}
+
+
 /* footer */
 .footer {
-  width: 100%;
+  width: 100%!important;
   color:white;
   background: linear-gradient(to left, #FFC5F6ff, #FEB1CCff, #FD9EA5ff, #FF9C55, #FF5555);
 }
