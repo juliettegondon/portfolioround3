@@ -25,10 +25,23 @@ body {
 }
 
 .hero h1 {
-  font-size: 60px;
   padding-top: 140px;
   margin-top: 0;
 }
+
+/* nav */
+.nav {
+  background-color: transparent;
+  
+}
+
+
+.navbar-light .navbar-brand {
+  color: white!important;
+  font-family: "Rubik Mono One", sans-serif; 
+}
+
+/* */
 
 a {
     font-family: "Rubik Mono One", sans-serif; 
