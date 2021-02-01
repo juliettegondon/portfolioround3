@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Mono+One&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
 body {
     -webkit-background-size: cover;
@@ -9,9 +11,27 @@ body {
     background-size: cover;
     -o-background-size: cover;
   }
+  /* hero */
+
+.hero {
+  position: relative;
+  height: 400px;
+  background-image: linear-gradient(to right, #FFC5F6ff, #FEB1CCff, #FD9EA5ff, #FF9C55, #FF5555);
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+}
 
 a {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Rubik Mono One", sans-serif; 
     text-decoration: none;
     color:white;
 }
@@ -21,23 +41,13 @@ a:focus {
     color: black;
 }
 
-h1 {
-    font-family: 'Source Code Pro', monospace;
-    color:white;
-}
-h2 {
-    font-family: 'Source Code Pro', monospace;
-}
 .h2tag{
-  font-family: Rubik Mono One', sans-serif';
+  font-family: "Rubik Mono One", sans-serif; 
 }
 h3 {
     font-weight: 100;
 }
-p {
-    font-family: 'Source Code Pro', monospace;
-    color: white;
-}
+
 
 
 .pure-img-responsive {
@@ -52,11 +62,6 @@ p {
     margin: 3em auto;
 }
 
-.sidebar {
-    background-image: linear-gradient(to right, #FFC5F6ff, #FEB1CCff, #FD9EA5ff, #FF9C55, #FF5555);
-}
-
-
 .juliette {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 50px;
@@ -67,6 +72,11 @@ p {
     font-weight: 300;
     color: white;
     margin: 0;
+}
+
+.link{
+  font-family: 'Rubik', sans-serif!important;
+  font-size: 200%!important;
 }
 
 .nav-list {
@@ -84,7 +94,6 @@ p {
     color: #fff;
     margin-top: 1em;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     font-size: 300%;
 }
 .nav-item a:hover,
@@ -102,7 +111,7 @@ p {
 
 .content-subhead {
     text-transform: uppercase;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Rubik Mono One", sans-serif; 
     font-style: oblique;
     color:rgba(237,107,154,1);
     border-bottom: 1px solid #eee;
@@ -116,6 +125,24 @@ p {
     padding: 2em 1em 0;
 }
 
+/* skills section */
+.thumbnails {
+  font-size: 50px;
+}
+.thumbnailstext {
+	font-size: 30px;
+}
+.thumbnails .thumbnail {
+	display: inline-block;
+	margin: 0 20px;
+}
+.thumbnailstext .thumbnail {
+	display: inline-block;
+	margin: 20px;
+}
+
+/* projects */
+
 .project {
     padding-bottom: 2em;
 }
@@ -127,7 +154,7 @@ p {
 }
 
 .project-description {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Rubik Mono One", sans-serif; 
     color: rgba(216,27,96,1);
     line-height: 1.8em;
 }
@@ -147,7 +174,7 @@ p {
     list-style: none;
 }
 .skills-item {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Rubik Mono One", sans-serif; 
     display: inline-block;
     *display: inline;
     color: #fff;
@@ -177,27 +204,22 @@ p {
 i:hover {
     color:#FF5555;
 }
-#downloadbtn {
-   color: #eee;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    font-size: 110%;
-}
+
 /* RAINBOW CARDS */
 
 :root {
-  --primary:  #FFFFFFff;
-  --secondary: #FFC5F6ff;
-  --background: #192824;
-  --green: #FEB1CCff;
-  --yellow: #FD9EA5ff;
-  --orange: #FF9C55;
-  --red: #FF5555;
+  --primary: #192824 !important;
+	--cottoncandy: #ffc5f6ff !important;
+	--background: #192824 !important;
+	--nadeshikopink: #feb1ccff !important;
+	--salmonpink: #fd9ea5ff !important;
+	--sandybrown: #ff9c55 !important;
+	--tartorange: #ff5555 !important;
 }
 
 body {
   background: var(--background);
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Rubik Mono One", sans-serif; 
   color: var(--primary);
 }
 
@@ -210,12 +232,12 @@ body {
 
 .card p {
   font-size: 27px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Rubik Mono One", sans-serif; 
   font-weight: normal;
 }
 .card a {
     font-size: 27px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Rubik Mono One", sans-serif; 
     font-weight: normal;
   }
 
@@ -227,10 +249,11 @@ body {
   padding: 15px;
   margin: 75px;
   border: 3px solid var(--primary);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-    40px -40px 0 -3px var(--background), 40px -40px var(--red);
+	box-shadow: 10px -10px 0 -3px var(--background),
+		10px -10px var(--nadeshikopink), 20px -20px 0 -3px var(--background),
+		20px -20px var(--salmonpink), 30px -30px 0 -3px var(--background),
+		30px -30px var(--sandybrown), 40px -40px 0 -3px var(--background),
+		40px -40px var(--tartorange);
 }
 .projcard {
     background-color: var(--background);
@@ -240,10 +263,11 @@ body {
     padding: 15px;
     margin: 75px;
     border: 3px solid var(--primary);
-    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-      30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-      40px -40px 0 -3px var(--background), 40px -40px var(--red);
+  	box-shadow: 10px -10px 0 -3px var(--background),
+		10px -10px var(--nadeshikopink), 20px -20px 0 -3px var(--background),
+		20px -20px var(--salmonpink), 30px -30px 0 -3px var(--background),
+		30px -30px var(--sandybrown), 40px -40px 0 -3px var(--background),
+		40px -40px var(--tartorange);
   }
 
 .card:hover {
@@ -254,54 +278,58 @@ body {
   }
 
 @keyframes shadow-wave {
-  0% {
-  border: 3px solid var(--primary);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-    40px -40px 0 -3px var(--background), 40px -40px var(--red);
-  }
-  20% {
-  border: 3px solid var(--red);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary),
-    20px -20px 0 -3px var(--background), 20px -20px var(--green),
-    30px -30px 0 -3px var(--background), 30px -30px var(--yellow),
-    40px -40px 0 -3px var(--background), 40px -40px var(--orange);
-  }
-  40% {
-  border: 3px solid var(--orange);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red),
-    20px -20px 0 -3px var(--background), 20px -20px var(--primary),
-    30px -30px 0 -3px var(--background), 30px -30px var(--green),
-    40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
-  }
-  60% {
-  border: 3px solid var(--yellow);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange),
-    20px -20px 0 -3px var(--background), 20px -20px var(--red),
-    30px -30px 0 -3px var(--background), 30px -30px var(--primary),
-    40px -40px 0 -3px var(--background), 40px -40px var(--green);
-  }
-  80% {
-  border: 3px solid var(--green);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow),
-    20px -20px 0 -3px var(--background), 20px -20px var(--orange),
-    30px -30px 0 -3px var(--background), 30px -30px var(--red),
-    40px -40px 0 -3px var(--background), 40px -40px var(--primary);
-  }
-    100% {
-    border: 3px solid var(--primary);
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-    40px -40px 0 -3px var(--background), 40px -40px var(--red);
-    }
-  }
+	0% {
+		border: 3px solid var(--primary);
+		box-shadow: 10px -10px 0 -3px var(--background),
+			10px -10px var(--nadeshikopink), 20px -20px 0 -3px var(--background),
+			20px -20px var(--salmonpink), 30px -30px 0 -3px var(--background),
+			30px -30px var(--sandybrown), 40px -40px 0 -3px var(--background),
+			40px -40px var(--tartorange);
+	}
+	20% {
+		border: 3px solid var(--tartorange);
+		box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary),
+			20px -20px 0 -3px var(--background), 20px -20px var(--nadeshikopink),
+			30px -30px 0 -3px var(--background), 30px -30px var(--salmonpink),
+			40px -40px 0 -3px var(--background), 40px -40px var(--sandybrown);
+	}
+	40% {
+		border: 3px solid var(--sandybrown);
+		box-shadow: 10px -10px 0 -3px var(--background),
+			10px -10px var(--tartorange), 20px -20px 0 -3px var(--background),
+			20px -20px var(--primary), 30px -30px 0 -3px var(--background),
+			30px -30px var(--nadeshikopink), 40px -40px 0 -3px var(--background),
+			40px -40px var(--salmonpink);
+	}
+	60% {
+		border: 3px solid var(--salmonpink);
+		box-shadow: 10px -10px 0 -3px var(--background),
+			10px -10px var(--sandybrown), 20px -20px 0 -3px var(--background),
+			20px -20px var(--tartorange), 30px -30px 0 -3px var(--background),
+			30px -30px var(--primary), 40px -40px 0 -3px var(--background),
+			40px -40px var(--nadeshikopink);
+	}
+	80% {
+		border: 3px solid var(--nadeshikopink);
+		box-shadow: 10px -10px 0 -3px var(--background),
+			10px -10px var(--salmonpink), 20px -20px 0 -3px var(--background),
+			20px -20px var(--sandybrown), 30px -30px 0 -3px var(--background),
+			30px -30px var(--tartorange), 40px -40px 0 -3px var(--background),
+			40px -40px var(--primary);
+	}
+	100% {
+		border: 3px solid var(--primary);
+		box-shadow: 10px -10px 0 -3px var(--background),
+			10px -10px var(--nadeshikopink), 20px -20px 0 -3px var(--background),
+			20px -20px var(--salmonpink), 30px -30px 0 -3px var(--background),
+			30px -30px var(--sandybrown), 40px -40px 0 -3px var(--background),
+			40px -40px var(--tartorange);
+	}
+}
 
-
-  /* CSS HEX */
-/* --outrageous-orange: #FC7A57ff;
---cotton-candy: #FFC5F6ff;
---nadeshiko-pink: #FEB1CCff;
---salmon-pink: #FD9EA5ff;
---white: #FFFFFFff; */
+/* footer */
+.footer {
+  width: 100%;
+  color:white;
+  background: linear-gradient(to left, #FFC5F6ff, #FEB1CCff, #FD9EA5ff, #FF9C55, #FF5555);
+}
